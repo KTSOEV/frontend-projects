@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+        <h4><a href="/login">Вход</a></h4>
+        <form action="/auth/signup.php" method="post">
+            <p>Электронная почта</p>
+            <input type="email" name="email"/>
+            <p>Имя</p>
+            <input type="name" name="name"/>
+            <p>Телефон</p>
+            <input type="phone" name="phone"/>
+            <p>Пароль</p>
+            <input type="password" name="password"/>
+            <p>Адрес</p>
+            <input type="address" name="address"/><br><br>
+            <input type="submit" value="Регистрация" name="log_in" />
+        </form>
+    </body>
+</html>
