@@ -1,10 +1,10 @@
 body{
     color:#949494;
-    background-color: #374149;
+    background-color: #304157;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 form{
-    background-color: #41484e;
+    background-color: #384f66;
     width: 500px;
     height: 250px;
     text-align: center;
@@ -27,14 +27,14 @@ input{
     text-align: center;
     transition: 0.25s;
 }
+input::placeholder{
+    color: rgba(255, 255, 255, 0.452);
+}
 input[type="submit"]{
     height: 35px;
-    margin-top: 20px;
-    background-color: #51616e;
 }
 h1{
     color: white;
-    margin-top: 40px;
     transition: 0.25s;
 }
 h1:hover{
@@ -48,11 +48,9 @@ input:hover {
 }
 form:hover{
     width: 550px;
-    height: 350px;
+    height: 300px;
+    margin-top: 24%;
 }
 form:hover input{
-    margin-top: 20px;
-}
-form:hover input[type="submit"]{
-    margin-top: 50px;
+    margin: 10px;
 }

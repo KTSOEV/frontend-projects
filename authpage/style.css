@@ -6,28 +6,20 @@ body{
     padding-top: 10%;
     transition: 0.25s;
 }
+form{
+    white-space: pre-line;
+}
 a:link {
     color: rgba(159, 217, 255, 0.774);
 }
-h4{
+h4, h1, p{
     transition: 0.25s;
 }
-h4:hover{
-    letter-spacing: 2px;
-}
-h1{
-    transition: 0.25s;
-}
-h1:hover{
-    letter-spacing: 2px;
-}
-p{
-    transition: 0.25s;
-}
-p:hover{
+h4:hover, h1:hover, p:hover{
     letter-spacing: 2px;
 }
 input{
+    margin: 5px;
     background-color: #353742;
     border: 2px solid #7fd0ff ;
     border-radius: 13px;
@@ -37,7 +29,7 @@ input{
     color:white;
     transition: 0.25s;
 }
-input:hover{
+input:hover, input:focus{
     width: 250px;
 }
 input[type = "submit"]{
@@ -48,5 +40,5 @@ input[type = "submit"]:hover{
     background-color: #7acaff42;
 }
 .error{
- color: #db7f7f;   
+ color: #db7f7f;
 }
