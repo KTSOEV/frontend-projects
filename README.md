@@ -1,5 +1,3 @@
-# Frontend Projects
-
 # Traffic light login
 ![gif1](media/1.gif)
 
